@@ -1,4 +1,4 @@
-﻿namespace Add_in_Teste_C_Sharp
+﻿namespace Taskpane_ZeroGrau
 {
     partial class MeuTaskPane
     {

@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 
 
-namespace Add_in_Teste_C_Sharp
+namespace Taskpane_ZeroGrau
 {
     /// <summary>
     /// Summary description for Add_in_Teste_C_Sharp.
@@ -166,7 +166,7 @@ namespace Add_in_Teste_C_Sharp
         #region UI Methods
         public void AddTaskPane()
         {
-            myTaskPaneView = SwApp.CreateTaskpaneView2(@"C:\Users\Ricar\Documents\Add-in Ricardo\Add-in_Teste_C_Sharp\2x.bmp", "Utilidades Zero Grau");
+            myTaskPaneView = SwApp.CreateTaskpaneView2(@"C:\Users\Ricar\Documents\Add-in Ricardo\Taskpane_ZeroGrau\bin\Release\2x.bmp", "Utilidades Zero Grau");
             myTaskPaneHost = myTaskPaneView.AddControl("TaskPane2", "");
             myTaskPaneHost.GetSwApp(SwApp);            
         }

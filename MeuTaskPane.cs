@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 
-namespace Add_in_Teste_C_Sharp
+namespace Taskpane_ZeroGrau
 {
     [ComVisible(true)]
     [ProgId("TaskPane2")]
@@ -62,8 +62,8 @@ namespace Add_in_Teste_C_Sharp
             swmodel = swActiveView.ReferencedDocument;
             string config = swActiveView.ReferencedConfiguration;
 
-            var bomPart = @"C:\Users\Ricar\Documents\Add-in Ricardo\InsertBOMCSharp\PART.sldbomtbt";
-            var bomAssembly = @"C:\Users\Ricar\Documents\Add-in Ricardo\InsertBOMCSharp\ASSEMBLY.sldbomtbt";
+            var bomPart = @"C:\Users\Ricar\Documents\Add-in Ricardo\Taskpane_ZeroGrau\bin\Release\PART.sldbomtbt";
+            var bomAssembly = @"C:\Users\Ricar\Documents\Add-in Ricardo\Taskpane_ZeroGrau\bin\Release\ASSEMBLY.sldbomtbt";
 
             if ((swDocumentTypes_e)swmodel.GetType() == swDocumentTypes_e.swDocASSEMBLY)
             {

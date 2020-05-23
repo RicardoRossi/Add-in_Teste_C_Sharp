@@ -1,7 +1,7 @@
 ﻿using SolidWorks.Interop.sldworks;
 using System.Runtime.InteropServices;
 
-namespace Add_in_Teste_C_Sharp
+namespace Taskpane_ZeroGrau
 {
     internal static class SolidWorksSingleton
     {

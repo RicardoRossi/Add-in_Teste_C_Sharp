@@ -3,7 +3,7 @@ using SolidWorks.Interop.sldworks;
 using SolidWorks.Interop.swconst;
 using Microsoft.CSharp.RuntimeBinder;
 
-namespace Add_in_Teste_C_Sharp
+namespace Taskpane_ZeroGrau
 {
 
     public class DocumentEventHandler
