@@ -1,0 +1,14 @@
+﻿//private static bool GetBomTable(ModelDoc2 swModel) {
+        //    Feature swFeature;
+        //    swFeature = swModel.FirstFeature();
+        //    while (!(swFeature == null)) {
+        //        string featureName = swFeature.GetTypeName2();
+                
+        //        MessageBox.Show(swFeature.Name);
+        //        if (featureName == "BomFeat") {
+        //            return true;
+        //        }
+        //        swFeature = swFeature.GetNextFeature();
+        //    }
+        //    return false;
+        //}
